@@ -1,0 +1,138 @@
+<!--https://github.com/gitdagray/html_course/tree/main/10_lesson_starter-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - The Taco Shop</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="icon" href="/icons/favicon.ico"/>
+</head>
+
+<body>
+
+    <header>
+
+        <h1>Welcome to The Taco Shop</h1>
+
+        <nav>
+            <ul>
+                <li><a href="#about">About The Taco Shop</a></li>
+                <li><a href="#menu">Our Menu</a></li>
+                <li><a href="/hours.html">Store Hours</a></li>
+                <li><a href="/contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+
+            <figure>
+                <img src="/images/tacos_and_drink_400x267.png" alt="Tacos and Drink" width="400"
+                height="267">
+                <figcaption>Tacos and Drink</figcaption>
+            </figure>
+
+        <hr>
+
+        <div id="about">
+            <h2>About The Taco Shop</h2>
+
+            <p>Taco Shop was founded in 2022. Our shop was built from a <strong>love of tacos</strong>🌮🌮🌮. We hope our shop
+                adds a unique and interesting place to our little town.</p>
+
+            <section>
+                <h3>Taco Trivia</h3>
+                <details>
+                    <summary>When did tacos first appear in the United Stated?</summary>
+                    <p>
+                        Jeffrey M. Pilcher, taco historian and professor of history at the University of Minnesota, says
+                        the earliest mention of tacos in the United States are in a newspaper from <time
+                            datetime="1905">1905</time>. (Source: <cite><a
+                                href="https://www.smithsonianmag.com/arts-culture/where-did-the-taco-come-from-81228162/"
+                                target="_blank">Smithsonian Magazine</a></cite>)</p>
+                </details>
+
+            </section>
+        </div>
+
+        <hr>
+
+        <div id="menu">
+            <h2>Our Menu</h2>
+
+            <table>
+                <caption>Our Tacos</caption>
+
+                <thead>
+
+                    <tr>
+                        <th>Our Tacos</th>
+                        <th scope="cal"><abbr title="Quantity">Qty</abbr></th>
+                        <th scope="cal">Price</th>
+                    </tr>
+
+                </thead>
+
+                <tbody>
+
+                    <tr>
+                        <th scope="row" rowspan="3">Crunchy</th>
+                        <td>1</td>
+                        <td>$ 1.50</td>
+                    </tr>
+
+                    <tr>
+                        <td>2</td>
+                        <td>$ 2.50</td>
+                    </tr>
+
+                    <tr>
+                        <td>3</td>
+                        <td>$ 3.25</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row" rowspan="3">Soft</th>
+                        <td>1</td>
+                        <td>$ 2.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>2</td>
+                        <td>$ 3.50</td>
+                    </tr>
+
+                    <tr>
+                        <td>3</td>
+                        <td>$ 4.50</td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="3">Chips &amp; Salsa: $ 2.00</td>
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+            <br>
+
+            <div>
+                <a href="#">Back to top</a>
+            </div>
+        </div>
+
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>Copyright &copy; The Taco Shop</p>
+    </footer>
+
+</body>
+
+</html>
